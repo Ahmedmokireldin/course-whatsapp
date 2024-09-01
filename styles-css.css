@@ -1,73 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Cairo', sans-serif;
+    background-color: #f0f4f8;
+    color: #2d3748;
     margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+    padding: 0;
+    line-height: 1.6;
 }
+
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 40px 20px;
 }
+
 h1, h2 {
-    color: #333;
+    color: #25D366;
 }
+
 label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
+
 input, select {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    font-family: 'Cairo', sans-serif;
 }
+
 button {
-    background-color: #4CAF50;
+    background-color: #25D366;
     color: white;
-    padding: 10px 15px;
+    padding: 12px 24px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
+
 button:hover {
-    background-color: #45a049;
+    background-color: #128C7E;
+    transform: translateY(-2px);
 }
+
 #results, #pricingResults {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e7f3fe;
-    border-radius: 4px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    border-right: 4px solid #25D366;
 }
+
 #pricePerMessage {
     font-weight: bold;
-    color: #4CAF50;
+    color: #25D366;
 }
+
 .icon {
-    margin-right: 10px;
-    color: #4CAF50;
+    margin-left: 10px;
+    color: #25D366;
 }
+
 #visitorCounter {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 18px;
-    color: #333;
+    color: #2d3748;
 }
+
 .social-icons {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
 .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-    color: #4CAF50;
+    color: #2d3748;
     font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
 }
+
+.social-icons a:hover {
+    color: #25D366;
+}
+
 .rtl {
     direction: rtl;
     text-align: right;
